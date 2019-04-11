@@ -4,7 +4,7 @@
 #
 Name     : os-resource-classes
 Version  : 0.3.0
-Release  : 1
+Release  : 2
 URL      : https://files.pythonhosted.org/packages/4b/43/0ba600a16db390d4257d40e7609f5441204c33cea114ee4f083ad0a60141/os-resource-classes-0.3.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/4b/43/0ba600a16db390d4257d40e7609f5441204c33cea114ee4f083ad0a60141/os-resource-classes-0.3.0.tar.gz
 Summary  : Resource Classes for OpenStack
@@ -64,7 +64,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1554990181
+export SOURCE_DATE_EPOCH=1554990286
 export MAKEFLAGS=%{?_smp_mflags}
 python3 setup.py build
 
