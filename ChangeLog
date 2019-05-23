@@ -1,6 +1,18 @@
 CHANGES
 =======
 
+0.4.0
+-----
+
+* Replace git.openstack.org URLs with opendev.org URLs
+* Add MEM\_ENCRYPTION\_CONTEXT resource class
+* Add missing upper-constraints.txt to deps in docs testenv
+* Use py3 for all\* tox targets
+* Dropping the py35 testing
+* OpenDev Migration Patch
+* Update master for stable/stein
+* Update bug links for storyboard
+
 0.3.0
 -----
 
