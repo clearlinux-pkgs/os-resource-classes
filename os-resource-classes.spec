@@ -4,7 +4,7 @@
 #
 Name     : os-resource-classes
 Version  : 0.4.0
-Release  : 4
+Release  : 5
 URL      : https://files.pythonhosted.org/packages/3f/37/184111437e73f1d769ed0cd95043b89851b5c2543d5c56ac80408cd827f8/os-resource-classes-0.4.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/3f/37/184111437e73f1d769ed0cd95043b89851b5c2543d5c56ac80408cd827f8/os-resource-classes-0.4.0.tar.gz
 Summary  : Resource Classes for OpenStack
