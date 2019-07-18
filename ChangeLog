@@ -1,6 +1,12 @@
 CHANGES
 =======
 
+0.5.0
+-----
+
+* Propose FPGA and PGPU resource classes
+* Add Python 3 Train unit tests
+
 0.4.0
 -----
 
