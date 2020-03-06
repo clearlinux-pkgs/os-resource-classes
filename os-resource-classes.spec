@@ -4,7 +4,7 @@
 #
 Name     : os-resource-classes
 Version  : 0.5.0
-Release  : 9
+Release  : 10
 URL      : https://files.pythonhosted.org/packages/d8/6a/b0fa1c18d4d8356847e199ecaf48816da36044a302b7a3e35981724f3c83/os-resource-classes-0.5.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/d8/6a/b0fa1c18d4d8356847e199ecaf48816da36044a302b7a3e35981724f3c83/os-resource-classes-0.5.0.tar.gz
 Summary  : Resource Classes for OpenStack
@@ -18,32 +18,24 @@ BuildRequires : buildreq-distutils3
 BuildRequires : pbr
 
 %description
-===================
 os-resource-classes
-===================
-
-A list of standardized resource classes for OpenStack.
-
-A resource class is a distinct type of inventory that exists in
-a cloud environment, for example ``VCPU``, ``DISK_GB``. They are
-upper case with underscores. They often include a unit in their
-name.
-
-This package provides a collection of symbols representing those
-standard resource classes which are expected to be available in
-any OpenStack deployment.
-
-There also exists a concept of custom resource classes. These
-are countable types that are custom to a particular environment.
-The OpenStack `placement API`_ provides a way to create these. A
-custom resource class always begins with a ``CUSTOM_`` prefix.
-
-* Free software: Apache license
-* Documentation: https://docs.openstack.org/os-resource-classes/latest
-* Source: https://opendev.org/openstack/os-resource-classes
-* Bugs: https://storyboard.openstack.org/#!/project/openstack/os-resource-classes
-
-.. _placement API: https://developer.openstack.org/api-ref/placement/
+        ===================
+        
+        A list of standardized resource classes for OpenStack.
+        
+        A resource class is a distinct type of inventory that exists in
+        a cloud environment, for example ``VCPU``, ``DISK_GB``. They are
+        upper case with underscores. They often include a unit in their
+        name.
+        
+        This package provides a collection of symbols representing those
+        standard resource classes which are expected to be available in
+        any OpenStack deployment.
+        
+        There also exists a concept of custom resource classes. These
+        are countable types that are custom to a particular environment.
+        The OpenStack `placement API`_ provides a way to create these. A
+        custom resource class always begins with a ``CUSTOM_`` prefix.
 
 %package license
 Summary: license components for the os-resource-classes package.
@@ -66,7 +58,8 @@ python components for the os-resource-classes package.
 Summary: python3 components for the os-resource-classes package.
 Group: Default
 Requires: python3-core
-Provides: pypi(os-resource-classes)
+Provides: pypi(os_resource_classes)
+Requires: pypi(pbr)
 
 %description python3
 python3 components for the os-resource-classes package.
@@ -81,8 +74,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1583195551
-# -Werror is for werrorists
+export SOURCE_DATE_EPOCH=1583538394
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
