@@ -1,6 +1,21 @@
 CHANGES
 =======
 
+1.0.0
+-----
+
+* Switch to hacking 2.x
+* setup.cfg: Configure 'python-requires'
+* Stop testing with py2
+* Switch to Ussuri jobs
+* Bump the openstackdocstheme extension to 1.20
+* Update the constraints url
+* Build pdf docs
+* Update bug link in docs to point to storyboard
+* Update api-ref link to canonical location
+* Sync Sphinx requirement
+* Update api-ref location
+
 0.5.0
 -----
 
